@@ -10,8 +10,9 @@
     <header>
         <h1>Centro medico Backend</h1>
     </header>
-    <main>
+    <main class="estilo-formulario">
         <h2>Registros pacientes</h2>
+        <div class="container-form">
         <form id="registros-pacientes-form">
             <label for="nombres">Nombre</label>
             <input type="text" id="nombres" name="nombres" required>
@@ -25,7 +26,7 @@
             <input type="tel" id="telefono" name="telefono" required>
             <label for="especialidad">Seleccione especialidad</label>
             <select name="especialidad" id="especialidad" required>
-                <option value="">----------seleccione una opcion----------</option>
+                <option value="" class="texto-label">seleccione una opcion</option>
                 <option value="medicina general">Medicina general</option>
                 <option value="cardiologia">cardiologia</option>
                 <option value="Medicina interna">Medicina interna</option>
@@ -39,6 +40,7 @@
         </form>
         <a href="/index.html"><input type="button" value="Volver"></a>
     </main>
+</div>
     <footer>
         <h2>Realizado por:</h2>
         <p>Juan Mateus</p>
